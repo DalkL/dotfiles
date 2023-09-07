@@ -37,4 +37,11 @@ return require('packer').startup(function(use)
 			{'L3MON4D3/LuaSnip'},
 		}
 	}
+
+    use    {
+        "folke/tokyonight.nvim",
+        lazy = false,
+        priority = 1000,
+        opts = {},
+    }
 end)
